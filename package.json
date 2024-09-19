@@ -1,0 +1,19 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.ts",
+    "test-ct-ui": "playwright test --config=playwright-ct.config.ts --ui",
+    "test-ct-debug": "playwright test --config=playwright-ct.config.ts --debug"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.47.1",
+    "@types/node": "^22.5.5"
+  }
+}
